@@ -8,35 +8,58 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* ÉlecPro Tunisie Color System - Electric Blue Theme */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 210 20% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 20% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 212 100% 50%; /* Electric Blue #007BFF */
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 212 100% 45%;
+    --primary-glow: 212 100% 85%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 210 15% 90%;
+    --secondary-foreground: 210 20% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 15% 95%;
+    --muted-foreground: 210 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 212 100% 50%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 210 15% 85%;
+    --input: 210 15% 90%;
+    --ring: 212 100% 50%;
 
-    --radius: 0.5rem;
+    --success: 142 76% 36%;
+    --warning: 43 96% 56%;
+    --info: 212 100% 50%;
+
+    /* Professional Electric Colors */
+    --electric-blue: 212 100% 50%;
+    --dark-gray: 210 20% 13%;
+    --pure-white: 0 0% 100%;
+    --light-gray: 210 15% 95%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(212 100% 50%), hsl(212 100% 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(212 100% 50% / 0.9), hsl(210 20% 13% / 0.8));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 15% 98%));
+
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -5px hsl(212 100% 50% / 0.1);
+    --shadow-glow: 0 0 40px hsl(212 100% 50% / 0.2);
+    --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.08);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,33 +79,56 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Dark Mode - Professional Electric Theme */
+    --background: 210 20% 8%;
+    --foreground: 0 0% 95%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 210 20% 10%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 210 20% 10%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 212 100% 60%;
+    --primary-foreground: 210 20% 8%;
+    --primary-hover: 212 100% 55%;
+    --primary-glow: 212 100% 25%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 210 20% 15%;
+    --secondary-foreground: 0 0% 90%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 210 20% 12%;
+    --muted-foreground: 210 15% 60%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 212 100% 60%;
+    --accent-foreground: 210 20% 8%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 95%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --border: 210 20% 18%;
+    --input: 210 20% 15%;
+    --ring: 212 100% 60%;
+
+    --success: 142 70% 45%;
+    --warning: 43 90% 60%;
+    --info: 212 100% 60%;
+
+    /* Dark Professional Electric Colors */
+    --electric-blue: 212 100% 60%;
+    --dark-gray: 210 20% 8%;
+    --pure-white: 0 0% 95%;
+    --light-gray: 210 20% 12%;
+
+    /* Dark Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(212 100% 60%), hsl(212 100% 45%));
+    --gradient-hero: linear-gradient(135deg, hsl(212 100% 60% / 0.9), hsl(210 20% 8% / 0.9));
+    --gradient-card: linear-gradient(145deg, hsl(210 20% 10%), hsl(210 20% 12%));
+
+    /* Dark Shadows */
+    --shadow-elegant: 0 10px 30px -5px hsl(0 0% 0% / 0.3);
+    --shadow-glow: 0 0 40px hsl(212 100% 60% / 0.3);
+    --shadow-card: 0 4px 20px hsl(0 0% 0% / 0.2);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -100,6 +146,96 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Poppins', system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  /* Smooth transitions for theme switching */
+  * {
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Professional animations */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-slide-up {
+    animation: slide-up 0.6s ease-out;
+  }
+
+  .animate-fade-in-delayed {
+    animation: fade-in 0.8s ease-out 0.3s both;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes pulse-glow {
+    0%, 100% { 
+      box-shadow: 0 0 5px hsl(var(--primary) / 0.5);
+    }
+    50% { 
+      box-shadow: 0 0 20px hsl(var(--primary) / 0.8), 0 0 30px hsl(var(--primary) / 0.4);
+    }
+  }
+
+  @keyframes slide-up {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  /* Gradient text utility */
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Glass morphism effect */
+  .glass {
+    backdrop-filter: blur(10px);
+    background: hsl(var(--background) / 0.8);
+    border: 1px solid hsl(var(--border) / 0.5);
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary));
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary-hover));
   }
 }
