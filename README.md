@@ -1,73 +1,58 @@
-# Welcome to your Lovable project
+# ÉlecPro Tunisie ⚡
 
-## Project info
+ÉlecPro Tunisie est un site web **ultra-professionnel** conçu pour présenter les services électriques avec une **expérience utilisateur moderne**, un design **électrique et dynamique**, et toutes les fonctionnalités demandées pour convertir les visiteurs en clients.
 
-**URL**: https://lovable.dev/projects/c0e57c25-6327-4d07-b392-a583247157d5
+---
 
-## How can I edit this code?
+## 🎨 Design & UI/UX
 
-There are several ways of editing your application.
+- Palette électrique moderne : **bleu #007BFF, gris foncé, blanc**
+- **Animations fluides** et transitions professionnelles
+- Typographie haut de gamme : **Poppins**
+- Design **responsive** et **accessible** pour tous les appareils
+- Mode sombre/clair avec **commutateur élégant**
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/c0e57c25-6327-4d07-b392-a583247157d5) and start prompting.
+## 📱 Fonctionnalités Avancées
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Multilingue** : Français, Arabe, Anglais
+- **Chatbot intelligent** avec réponses automatiques
+- **QR Code** intégré pour contact rapide
+- **Header sticky** avec navigation fluide
+- Sections interactives avec animations et transitions
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📄 Sections du Site
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Hero** : Image professionnelle avec CTA puissants
+- **À propos** : Présentation d’Aymen Ben Ali et ses certifications
+- **Services** : Détail des prestations avec icônes animées
+- **Tarifs** : Tableau interactif et transparent
+- **Contact** : Formulaire intelligent et intégration chatbot
+- **Footer** : Complet avec informations et liens
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ⚡ Optimisations SEO
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Balises meta optimisées pour le référencement
+- Structure sémantique HTML5
+- Images avec attributs **alt** descriptifs
+- Performance optimisée pour un chargement rapide
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🛠 Technologies Utilisées
 
-**Edit a file directly in GitHub**
+- **Frontend** : HTML5, CSS3, JavaScript, TailwindCSS
+- **Animations & Interactions** : Framer Motion, CSS transitions
+- **Multilingue** : i18n / gestion dynamique du contenu
+- **Chatbot & QR** : Intégration JavaScript / API externes
+- **Responsive Design** : Mobile-first avec media queries
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📂 Structure du Projet
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/c0e57c25-6327-4d07-b392-a583247157d5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
